@@ -38,7 +38,16 @@ h5,
 h6{
   font-family: "Roboto",sans-serif;
 }
-
+/*Cartes*/
+ .card  {
+  background-color: #222222;
+}
+.blog-post .card{
+  background-color: #333333;
+}
+.blog-post-content p{
+  color: white !important;
+}
 
 .custom-nav li a{
   font-family: "Roboto",sans-serif;
@@ -170,7 +179,7 @@ nav .brand-logo img {
 /*--------------------*/
 
 #about{
-  background-color: #fafafa;
+  background-color: #333333;
   float: left;
   display: inline;
   padding: 80px 0px; 
@@ -195,7 +204,7 @@ nav .brand-logo img {
 
 
 .profile-img {
-  border: 5px solid #fff;
+  border: 5px solid #ff2851;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
   height: 130px;
   margin: 0 auto;
@@ -212,7 +221,7 @@ nav .brand-logo img {
 
 
 .about-inner-right>p{
-  color: #727272;
+  color: #fff;
   font-size: 15px;
   line-height: 28px;
   margin-bottom: 35px;
@@ -244,7 +253,7 @@ nav .brand-logo img {
 
 .personal-information ul li{
   border-bottom: 1px solid #eeeeee;
-  color: #727272;
+  color: #fff;
   font-size: 15px;
   margin-bottom: 12px;
   padding-bottom: 12px;
@@ -258,7 +267,7 @@ nav .brand-logo img {
 
 
 .pro-bar-container.color-wisteria {
-  background-color: #eee;
+  background-color: #333333;
 }
 
 
@@ -275,7 +284,7 @@ nav .brand-logo img {
 
 
 #skill{
-  background-color: #fff;  
+  background-color: #222222;  
   display: inline;
   padding: 60px 0;
   float: left;
@@ -291,7 +300,7 @@ nav .brand-logo img {
 
 
 .skill-inner p{
-  color: #727272;
+  color: #fff;
   font-size: 16px;
   line-height: 30px;
   font-weight: 400;
@@ -315,7 +324,7 @@ nav .brand-logo img {
 
 
 .skill-progress-bar span {
-  color: #727272;
+  color: #fff;
   display: inline-block;
   font-size: 16px;
   font-weight: bold;
@@ -375,7 +384,7 @@ nav .brand-logo img {
 
 .experience-title {
   border-bottom: 1px solid #eee;
-  color: #727272;
+  color: #fff;
   font-size: 17px;
   font-weight: 400;
   line-height: 1.7;
@@ -399,13 +408,13 @@ nav .brand-logo img {
 
 
 .reveal-title {
-  color: #727272 !important;
+  color: #fff !important;
   font-size: 20px !important;
 }
 
 
 .experience-slider .card-reveal p {
-  color: #727272;
+  color: #fff;
   font-size: 15px;
   line-height: 25px;  
 }
@@ -441,7 +450,8 @@ nav .brand-logo img {
 
 
 #edcuation{
-  background-color: #fafafa;
+  background-color: #333333;
+  color: white;
   display: inline;
   padding: 60px 0;
   float: left;
@@ -681,7 +691,7 @@ transition: background-color 0.5s ease-in-out;
 
 .counter-text{
   display: block;
-  color: #727272;
+  color: #fff;
   font-size: 13px;
   text-transform: uppercase;
 }
@@ -810,7 +820,9 @@ transition: background-color 0.5s ease-in-out;
 
 
 #blog{
-  background-color: #fafafa;
+  background-color: #222222;
+  color: white;
+
   display: inline;
   float: left;
   padding: 60px 0;
@@ -864,7 +876,7 @@ transition: background-color 0.5s ease-in-out;
 
 
 .single-meta {
-  color: #777;
+  color: #888;
   display: inline-block;
   margin-right: 10px;
 }
@@ -926,8 +938,8 @@ transition: background-color 0.5s ease-in-out;
 
 .allpost-btn,
 .allpost-btn:hover{
-  background-color: #fff;
-  color: #727272;
+  background-color: #ff2851;
+  color: #fff;
   font-size: 14px;
   margin-top: 5px;
   padding-left: 20px;
@@ -956,7 +968,8 @@ transition: background-color 0.5s ease-in-out;
 
 
 .footer-top-inner{
-  display: inline;  
+  display: inline;
+    
   float: left;  
   width: 100%;  
 }
@@ -1042,7 +1055,7 @@ textarea.materialize-textarea {
 
 
 .footer-bottom{
-  background-color: #fff;
+  background-color: #222222;
   display: inline;
   float: left;
   width: 100%;
@@ -1060,7 +1073,7 @@ textarea.materialize-textarea {
 
 
 .design-info {
-  color: #555;
+  color: #bbbbbb;
   display: inline-block; 
   font-size: 14px;
   line-height: 25px;
@@ -1069,7 +1082,7 @@ textarea.materialize-textarea {
 
 
 .design-info a{
-  color: #555;
+  color: #bbbbbb;
 }
 
 
@@ -1083,7 +1096,7 @@ textarea.materialize-textarea {
 
 
 .up-btn {
-  background-color: #fff;
+  background-color: #ff2851;
   color: #000;
   left: 47.7%;
   position: absolute;
@@ -1097,7 +1110,7 @@ textarea.materialize-textarea {
 
 
 .up-btn:hover,.up-btn:focus{
-  background-color: #fff;
+  background-color: #ff5c7a;
 }
 
 
@@ -1207,7 +1220,7 @@ textarea.materialize-textarea {
 }
 
 #blog-details{
-  background-color: #fafafa;
+  background-color: #222222;
   display: inline-block;
   float: left;
   min-height: 500px;
