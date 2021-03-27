@@ -184,7 +184,7 @@ nav .brand-logo img {
   background-color: #333333;
   float: left;
   display: inline;
-  padding: 40px 0px; 
+  padding: 40px 0 0 0px; 
   width: 100%;  
 }
 
@@ -378,7 +378,7 @@ nav .brand-logo img {
 .experience-slider{
   display: inline;
   float: left;
-  margin-top: 55px;
+  margin-top: 10px;
   padding-left: 20px;
   width: 100%;
 }
@@ -845,7 +845,7 @@ transition: background-color 0.5s ease-in-out;
 .blog-area{
   display: inline;
   float: left;
-  margin-top: 50px;
+  margin-top: 10px;
   width: 100%;
 }
 
