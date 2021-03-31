@@ -1301,13 +1301,14 @@ textarea.materialize-textarea {
 
 
 .blog-content blockquote {
-  background-color: #fff;
+  background-color: #333;
+  color:white;
   padding: 10px;
 }
 
 
 .blog-content blockquote p {
-  color: #555;
+  color: white;
   font-size: 17px;
   margin: 0px;
 }
