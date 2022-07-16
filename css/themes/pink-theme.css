@@ -5,6 +5,9 @@ Author URI : http://www.markups.io/
 a {
   color: #ff2851;
 }
+body :not(.single-meta)>a:hover{
+  color: #ff8b9a;
+}
 
 .navbar-fixed nav {
   background-color: #ff2851;

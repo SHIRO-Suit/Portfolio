@@ -44,9 +44,20 @@ h6{
 }
 .blog-post .card{
   background-color: #333333;
+  
 }
+
+p{
+  width: 62%;
+}
+
 .blog-post-content p{
   color: white !important;
+  
+}
+
+#blog-details .container{
+  max-width: none !important;
 }
 
 .custom-nav li a{
@@ -851,9 +862,10 @@ transition: background-color 0.5s ease-in-out;
 
 
 .blog-post{
-  display: inline;
-  float: left;
-  width: 100%;
+  display:flex ;
+
+  width: 350px;
+  
 }
 
 
@@ -1215,9 +1227,6 @@ textarea.materialize-textarea {
 }
 
 
-.blog-archive .card-image{
-  height: 350px;
-}
 
 .card .card-image img
 {
@@ -1226,8 +1235,8 @@ textarea.materialize-textarea {
 }
 
 .blog-archive .card-image img{
-  height: 100%;
-  object-fit: contain;
+  
+  object-fit:contain;
   box-shadow: 0px 1px 10px;
   border: 1px solid #555;
   object-position: top;
@@ -1243,8 +1252,9 @@ textarea.materialize-textarea {
 
 
 .blog-content{  
-  display: inline;
-  float: left;  
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: space-evenly;
   width: 100%;
 }
 
